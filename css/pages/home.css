@@ -1,0 +1,45 @@
+body {
+  font-family: 'Conv_bpg_dejavu_sans'; }
+
+header {
+  text-align: center; }
+  header .logo {
+    width: 200px;
+    height: 200px;
+    background: white;
+    border-radius: 50%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center; }
+    header .logo img {
+      padding: 35px; }
+
+.main-container {
+  height: calc(100vh - 170px);
+  width: 81%;
+  background: white;
+  margin: 0 auto;
+  border-radius: 15px;
+  margin-top: -190px;
+  display: flex;
+  align-items: center;
+  padding: 80px;
+  color: #0C4437; }
+  .main-container .title-section .fb-login a {
+    color: #0C4437;
+    font-size: 14px;
+    border: 1px solid #0C4437;
+    padding: 15px;
+    border-radius: 25px; }
+    .main-container .title-section .fb-login a span {
+      margin: 0 7px; }
+
+footer {
+  height: 150px;
+  background: #EFABB2;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  z-index: -1; }
+
+/*# sourceMappingURL=home.css.map */
