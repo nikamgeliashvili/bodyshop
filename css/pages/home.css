@@ -25,21 +25,61 @@ header {
   align-items: center;
   padding: 80px;
   color: #0C4437; }
-  .main-container .title-section .fb-login a {
-    color: #0C4437;
-    font-size: 14px;
-    border: 1px solid #0C4437;
-    padding: 15px;
-    border-radius: 25px; }
-    .main-container .title-section .fb-login a span {
-      margin: 0 7px; }
+  .main-container .title-section {
+    width: 50%; }
+    .main-container .title-section .text {
+      padding: 10px 0 20px; }
+    .main-container .title-section .fb-login a {
+      color: #0C4437;
+      font-size: 14px;
+      border: 1px solid #0C4437;
+      padding: 15px 20px;
+      border-radius: 25px; }
+      .main-container .title-section .fb-login a span {
+        margin: 0 7px; }
+  .main-container .image-section img {
+    width: 100%; }
 
 footer {
   height: 150px;
-  background: #EFABB2;
+  background: #ffcdd2;
   position: absolute;
   bottom: 0px;
   width: 100%;
-  z-index: -1; }
+  z-index: -1;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 60px 50px;
+  font-family: 'Conv_bpg_dejavu_sans'; }
+  footer .footer-left {
+    width: 30%; }
+    footer .footer-left img {
+      padding: 0 15px 10px 0; }
+    footer .footer-left span {
+      font-size: 14px; }
+  footer .terms {
+    display: flex;
+    width: 30%;
+    justify-content: space-around; }
+    footer .terms .offices a {
+      border: 1px solid #efabb2;
+      padding: 10px 20px;
+      border-radius: 25px;
+      background: #ffdce0; }
+      footer .terms .offices a img {
+        padding-right: 10px; }
+    footer .terms a {
+      color: #3b3b3b; }
+  footer .footer-right {
+    width: 30%;
+    text-align: end; }
+    footer .footer-right img {
+      margin-bottom: -15px; }
+    footer .footer-right span {
+      font-size: 10px;
+      color: #3b3b3b;
+      padding: 2px; }
 
 /*# sourceMappingURL=home.css.map */

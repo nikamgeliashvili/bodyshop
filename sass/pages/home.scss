@@ -33,16 +33,23 @@ header {
     color: #0C4437;
 
     .title-section {
+        width: 50%;
 
+
+        .text{
+            padding: 10px 0 20px;
+
+        }
 
         .fb-login {
+
 
 
             a {
                 color: #0C4437;
                 font-size: 14px;
                 border: 1px solid #0C4437;
-                padding: 15px;
+                padding: 15px 20px;
                 border-radius: 25px;
 
                 span {
@@ -51,14 +58,76 @@ header {
             }
         }
     }
+
+    .image-section{
+
+        img{
+            width:100%;
+        }
+    }
 }
 
 
 footer {
     height: 150px;
-    background: #EFABB2;
+    background: #ffcdd2;
     position: absolute;
     bottom: 0px;
     width: 100%;
     z-index: -1;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 60px 50px;
+    font-family: 'Conv_bpg_dejavu_sans';
+
+    .footer-left{
+        width:30%;
+        img{
+            padding: 0 15px 10px 0;
+        }
+
+        span{
+            font-size:14px;
+        }
+    }
+
+    .terms{
+        display:flex;
+        width: 30%;
+        justify-content: space-around;
+
+        .offices{
+            a{
+                border: 1px solid #efabb2;
+                padding: 10px 20px;
+                border-radius: 25px;
+                background:#ffdce0;
+
+                img{
+                    padding-right:10px;
+                }
+            }
+        }
+
+        a{
+            color: #3b3b3b;
+        }
+    }
+
+    .footer-right{
+        width: 30%;
+        text-align: end;
+
+        img{
+            margin-bottom: -15px;
+        }
+
+        span{
+            font-size: 10px;
+            color:#3b3b3b;
+            padding: 2px;
+        }
+    }
 }
