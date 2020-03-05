@@ -1,20 +1,11 @@
-header {
+.account-info {
+    position: absolute;
+    right: 40px;
+    top: 35px;
+    display: flex;
+    align-items: center;
 
-    .logo {
-        background: unset;
-        margin: 0 auto;
-    }
-
-
-    .account-info {
-        position: absolute;
-        right: 40px;
-        top: 30px;
-        display: flex;
-        align-items: center;
-
-        img {
-            padding-right: 10px;
-        }
+    img {
+        padding-right: 10px;
     }
 }

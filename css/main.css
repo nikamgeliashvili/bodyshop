@@ -3,15 +3,10 @@ body {
   font-family: 'Conv_bpg_dejavu_sans'; }
 
 header .logo {
-  width: 200px;
-  height: 200px;
-  background: white;
-  border-radius: 50%;
-  margin: 20px auto;
-  display: flex;
-  justify-content: center; }
+  text-align: center;
+  margin: 10px auto; }
   header .logo img {
-    padding: 35px; }
+    padding: 30px; }
 
 .main-container {
   height: calc(100vh - 170px);
@@ -19,11 +14,20 @@ header .logo {
   background: white;
   margin: 0 auto;
   border-radius: 15px;
-  margin-top: -190px;
+  margin-top: -120px;
   display: flex;
   align-items: center;
   padding: 80px;
   color: #0C4437; }
+  .main-container .logo-background {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 15px;
+    left: calc(50% - 100px);
+    z-index: -1;
+    border-radius: 50%;
+    background: white; }
   .main-container .title-section {
     width: 50%; }
     .main-container .title-section .text {
@@ -36,8 +40,10 @@ header .logo {
       border-radius: 25px; }
       .main-container .title-section .fb-login a span {
         margin: 0 7px; }
-  .main-container .image-section img {
-    width: 100%; }
+  .main-container .image-section {
+    margin: 0 auto; }
+    .main-container .image-section img {
+      width: 100%; }
 
 footer {
   height: 150px;
@@ -92,6 +98,10 @@ footer {
   border: none;
   text-decoration: none; }
 
+.main-title {
+  font-size: 32px;
+  font-family: 'Conv_bpg_dejavu_sans'; }
+
 .title {
   font-size: 24px;
   font-family: 'Conv_bpg_dejavu_sans'; }
@@ -128,16 +138,13 @@ a {
 a:hover {
   text-decoration: none; }
 
-header .logo {
-  background: unset;
-  margin: 0 auto; }
-header .account-info {
+.account-info {
   position: absolute;
   right: 40px;
-  top: 30px;
+  top: 35px;
   display: flex;
   align-items: center; }
-  header .account-info img {
+  .account-info img {
     padding-right: 10px; }
 
 /*# sourceMappingURL=main.css.map */

@@ -11,6 +11,11 @@
 
 }
 
+.main-title {
+    font-size: 32px;
+    font-family: 'Conv_bpg_dejavu_sans';
+}
+
 .title {
     font-size: 24px;
     font-family: 'Conv_bpg_dejavu_sans';
@@ -29,7 +34,7 @@ body {
 }
 
 
-@font-face{
+@font-face {
     font-family: 'Conv_bpg_dejavu_sans';
     src: url('../fonts/bpg_dejavu_sans.eot');
     src: local('☺'), url('../fonts/bpg_dejavu_sans.woff') format('woff'), url('fonts/bpg_dejavu_sans.ttf') format('truetype'), url('fonts/bpg_dejavu_sans.svg') format('svg');
