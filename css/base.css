@@ -10,6 +10,10 @@
   border: none;
   text-decoration: none; }
 
+.main-title {
+  font-size: 32px;
+  font-family: 'Conv_bpg_dejavu_sans'; }
+
 .title {
   font-size: 24px;
   font-family: 'Conv_bpg_dejavu_sans'; }
@@ -17,9 +21,6 @@
 .text {
   font-size: 14px;
   font-family: 'Conv_bpg_dejavu_sans'; }
-
-body {
-  background: #E4E4E4; }
 
 @font-face {
   font-family: 'Conv_bpg_dejavu_sans';
