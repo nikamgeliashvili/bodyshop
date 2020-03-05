@@ -1,0 +1,13 @@
+header .logo {
+  background: unset;
+  margin: 0 auto; }
+header .account-info {
+  position: absolute;
+  right: 40px;
+  top: 30px;
+  display: flex;
+  align-items: center; }
+  header .account-info img {
+    padding-right: 10px; }
+
+/*# sourceMappingURL=quiz.css.map */
