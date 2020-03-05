@@ -9,7 +9,7 @@ header .logo {
     padding: 30px; }
 
 .main-container {
-  height: calc(100vh - 170px);
+  height: calc(100vh - 208px);
   width: 80%;
   background: white;
   margin: 0 auto;
@@ -180,7 +180,8 @@ header {
   justify-content: center;
   height: 100%;
   padding-left: 40px; }
-  .product_top_text span, .product_top_text p {
+  .product_top_text span,
+  .product_top_text p {
     color: #519657;
     font-size: 14px; }
 

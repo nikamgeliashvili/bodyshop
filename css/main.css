@@ -10,7 +10,7 @@ header .logo {
     padding: 30px; }
 
 .main-container {
-  height: calc(100vh - 170px);
+  height: calc(100vh - 208px);
   width: 80%;
   background: white;
   margin: 0 auto;
@@ -181,7 +181,8 @@ header {
   justify-content: center;
   height: 100%;
   padding-left: 40px; }
-  .product_top_text span, .product_top_text p {
+  .product_top_text span,
+  .product_top_text p {
     color: #519657;
     font-size: 14px; }
 
@@ -422,7 +423,7 @@ label {
 
 .background-img {
   height: 170px !important;
-  background-image: url(../../images/a-1.png);
+  background-image: url(../images/a-1.png);
   border: unset !important;
   background-size: cover;
   background-position: center;
@@ -432,7 +433,7 @@ label {
 
 .background-img2 {
   height: 170px !important;
-  background-image: url(../../images/2.png);
+  background-image: url(../images/2.png);
   border: unset !important;
   background-size: cover;
   background-position: center;
@@ -442,7 +443,7 @@ label {
 
 .background-img3 {
   height: 170px !important;
-  background-image: url(../../images/a1.png);
+  background-image: url(../images/a1.png);
   border: unset !important;
   background-size: cover;
   background-position: center;
@@ -452,7 +453,7 @@ label {
 
 .background-img4 {
   height: 170px !important;
-  background-image: url(../../images/a-10.png);
+  background-image: url(../images/a-10.png);
   border: unset !important;
   background-size: cover;
   background-position: center;
@@ -462,7 +463,7 @@ label {
 
 .background-img5 {
   height: 170px !important;
-  background-image: url(../../images/Unticcfdtled-2.png);
+  background-image: url(../images/Unticcfdtled-2.png);
   border: unset !important;
   background-size: cover;
   background-position: center;
@@ -472,7 +473,7 @@ label {
 
 .background-img6 {
   height: 170px !important;
-  background-image: url(../../images/a-5.png);
+  background-image: url(../images/a-5.png);
   border: unset !important;
   background-size: cover;
   background-position: center;
@@ -482,7 +483,7 @@ label {
 
 .background-img7 {
   height: 170px !important;
-  background-image: url(../../images/a-4.png);
+  background-image: url(../images/a-4.png);
   border: unset !important;
   background-size: cover;
   background-position: center;
@@ -492,7 +493,7 @@ label {
 
 .background-img8 {
   height: 170px !important;
-  background-image: url(../../images/a-3.png);
+  background-image: url(/../images/a-3.png);
   border: unset !important;
   background-size: cover;
   background-position: center;
@@ -502,7 +503,7 @@ label {
 
 .background-img9 {
   height: 170px !important;
-  background-image: url(../../images/a-2.png);
+  background-image: url(../images/a-2.png);
   border: unset !important;
   background-size: cover;
   background-position: center;
@@ -512,7 +513,7 @@ label {
 
 .background-img10 {
   height: 170px !important;
-  background-image: url(../../images/a-8.png);
+  background-image: url(../images/a-8.png);
   border: unset !important;
   background-size: cover;
   background-position: center;
@@ -522,7 +523,7 @@ label {
 
 .background-img11 {
   height: 170px !important;
-  background-image: url(../../images/a-7.png);
+  background-image: url(../images/a-7.png);
   border: unset !important;
   background-size: cover;
   background-position: center;
@@ -532,7 +533,7 @@ label {
 
 .background-img12 {
   height: 170px !important;
-  background-image: url(../../images/a-6.png);
+  background-image: url(../images/a-6.png);
   border: unset !important;
   background-size: cover;
   background-position: center;
@@ -551,7 +552,7 @@ label {
 
 .background-img14 {
   height: 170px !important;
-  background-image: url(../../images/14.png);
+  background-image: url(../images/14.png);
   border: unset !important;
   background-size: cover;
   background-position: center;
@@ -561,7 +562,7 @@ label {
 
 .background-img15 {
   height: 170px !important;
-  background-image: url(../../images/15.png);
+  background-image: url(../images/15.png);
   border: unset !important;
   background-size: cover;
   background-position: center;
@@ -571,7 +572,7 @@ label {
 
 .background-img16 {
   height: 170px !important;
-  background-image: url(../../images/16.png);
+  background-image: url(../images/16.png);
   border: unset !important;
   background-size: cover;
   background-position: center;
@@ -688,5 +689,43 @@ a:hover {
         background-color: #C8E6C9;
         border-radius: 15px;
         border: 1px solid #519657; }
+  @media only screen and (max-width: 992px) {
+    .quiz-container {
+      width: 90%; }
+      .quiz-container .pink-background {
+        display: none; }
+      .quiz-container .question-box {
+        width: 80%; }
+        .quiz-container .question-box .number {
+          left: -65px; } }
+
+@media only screen and (max-width: 768px) {
+  .account-info {
+    right: calc(50% - 90px);
+    top: 100px; }
+
+  .quiz-container {
+    margin-top: 80px; }
+    .quiz-container .question-box {
+      margin-top: 20px; }
+      .quiz-container .question-box .number {
+        top: -30px;
+        left: 45%; }
+      .quiz-container .question-box form .answer {
+        width: 100%; }
+        .quiz-container .question-box form .answer .background-img,
+        .quiz-container .question-box form .answer .background-img2,
+        .quiz-container .question-box form .answer .background-img3,
+        .quiz-container .question-box form .answer .background-img4,
+        .quiz-container .question-box form .answer .background-img6,
+        .quiz-container .question-box form .answer .background-img7,
+        .quiz-container .question-box form .answer .background-img8,
+        .quiz-container .question-box form .answer .background-img9,
+        .quiz-container .question-box form .answer .background-img10,
+        .quiz-container .question-box form .answer .background-img11,
+        .quiz-container .question-box form .answer .background-img12,
+        .quiz-container .question-box form .answer .background-img13 {
+          height: unset !important;
+          min-height: 100px; } }
 
 /*# sourceMappingURL=main.css.map */

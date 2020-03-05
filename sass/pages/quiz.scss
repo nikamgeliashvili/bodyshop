@@ -117,4 +117,71 @@
 
         }
     }
+
+    @media only screen and (max-width: 992px) {
+        width: 90%;
+
+        .pink-background {
+            display: none;
+        }
+
+        .question-box {
+            width: 80%;
+
+            .number {
+                left: -65px;
+            }
+        }
+    }
+
+
+
+}
+
+
+@media only screen and (max-width: 768px) {
+    .account-info {
+        right: calc(50% - 90px);
+        top: 100px;
+    }
+
+    .quiz-container {
+        margin-top: 80px;
+
+        .question-box {
+
+            margin-top: 20px;
+
+            .number {
+                top: -30px;
+                left: 45%;
+            }
+
+
+            form {
+                .answer {
+                    width: 100%;
+
+                    .background-img,
+                    .background-img2,
+                    .background-img3,
+                    .background-img4,
+                    .background-img6,
+                    .background-img7,
+                    .background-img8,
+                    .background-img9,
+                    .background-img10,
+                    .background-img11,
+                    .background-img12,
+                    .background-img13 {
+                        height: unset !important;
+                        min-height: 100px;
+                    }
+                }
+            }
+        }
+    }
+
+
+
 }
