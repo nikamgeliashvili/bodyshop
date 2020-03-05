@@ -9,7 +9,7 @@ header .logo {
 
 .main-container {
   height: calc(100vh - 170px);
-  width: 81%;
+  width: 80%;
   background: white;
   margin: 0 auto;
   border-radius: 15px;
@@ -47,7 +47,6 @@ header .logo {
 footer {
   height: 150px;
   background: #ffcdd2;
-  position: absolute;
   bottom: 0px;
   width: 100%;
   z-index: -1;
@@ -112,7 +111,7 @@ footer {
     content: "";
     top: 50%;
     left: 50%;
-    border: 1px solid  #707070;
+    border: 1px solid #707070;
     transform: translate(-50%, -50%);
     z-index: 1;
     width: 40px;

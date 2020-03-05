@@ -17,7 +17,7 @@ header {
 
 .main-container {
     height: calc(100vh - 170px);
-    width: 81%;
+    width: 80%;
     background: white;
     margin: 0 auto;
     border-radius: 15px;
@@ -78,7 +78,7 @@ header {
 footer {
     height: 150px;
     background: #ffcdd2;
-    position: absolute;
+    // position: absolute;
     bottom: 0px;
     width: 100%;
     z-index: -1;
@@ -145,56 +145,60 @@ footer {
     max-width: 770px !important;
     margin: 1.75rem auto;
 }
+
 .modal-header {
     justify-content: center;
     border-bottom: unset;
     padding-top: 60px;
 
-     h5 {
-            font-family: 'Conv_bpg_dejavu_sans';
-            font-size: 24px;
-            color: #3B3B3B;
-     }
+    h5 {
+        font-family: 'Conv_bpg_dejavu_sans';
+        font-size: 24px;
+        color: #3B3B3B;
+    }
 }
+
 .modal-header .close {
     padding: 1rem 1rem;
     margin: -1rem -1rem -1rem auto;
     position: absolute;
-   top: 30px;
-             right: 35px;
+    top: 30px;
+    right: 35px;
     color: #707070;
     outline: none;
 
 
-     span {
+    span {
 
-        &:after{
-            position:absolute;
+        &:after {
+            position: absolute;
             content: "";
             top: 50%;
             left: 50%;
-            border:1px solid  #707070;
-            transform: translate(-50%,-50%);
+            border: 1px solid #707070;
+            transform: translate(-50%, -50%);
             z-index: 1;
             width: 40px;
             height: 40px;
             border-radius: 50%;
         }
-     }
+    }
 
 }
 
 
 .modal-body {
-     padding: 10px 75px 70px;
-        * {
-            font-size: 16px;
-        }
-     ul {
+    padding: 10px 75px 70px;
+
+    * {
+        font-size: 16px;
+    }
+
+    ul {
         padding-left: 20px;
 
         li {
             list-style-type: disc;
         }
-     }
+    }
 }
