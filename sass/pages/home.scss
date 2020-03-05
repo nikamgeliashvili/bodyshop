@@ -3,7 +3,7 @@ body {
 }
 
 header {
-    text-align: center;
+
 
     .logo {
         width: 200px;
@@ -36,7 +36,7 @@ header {
         width: 50%;
 
 
-        .text{
+        .text {
             padding: 10px 0 20px;
 
         }
@@ -59,10 +59,10 @@ header {
         }
     }
 
-    .image-section{
+    .image-section {
 
-        img{
-            width:100%;
+        img {
+            width: 100%;
         }
     }
 }
@@ -82,51 +82,52 @@ footer {
     padding: 60px 50px;
     font-family: 'Conv_bpg_dejavu_sans';
 
-    .footer-left{
-        width:30%;
-        img{
+    .footer-left {
+        width: 30%;
+
+        img {
             padding: 0 15px 10px 0;
         }
 
-        span{
-            font-size:14px;
+        span {
+            font-size: 14px;
         }
     }
 
-    .terms{
-        display:flex;
+    .terms {
+        display: flex;
         width: 30%;
         justify-content: space-around;
 
-        .offices{
-            a{
+        .offices {
+            a {
                 border: 1px solid #efabb2;
                 padding: 10px 20px;
                 border-radius: 25px;
-                background:#ffdce0;
+                background: #ffdce0;
 
-                img{
-                    padding-right:10px;
+                img {
+                    padding-right: 10px;
                 }
             }
         }
 
-        a{
+        a {
             color: #3b3b3b;
         }
     }
 
-    .footer-right{
+    .footer-right {
         width: 30%;
         text-align: end;
 
-        img{
+        img {
             margin-bottom: -15px;
         }
 
-        span{
+        span {
             font-size: 10px;
-            color:#3b3b3b;
+            color: #3b3b3b;
             padding: 2px;
         }
     }
