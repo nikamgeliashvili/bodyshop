@@ -512,7 +512,7 @@ label {
 
 .background-img8 {
   height: 170px !important;
-  background-image: url(/../images/a-3.png);
+  background-image: url(../images/a-3.png);
   border: unset !important;
   background-size: cover;
   background-position: center;
@@ -637,7 +637,7 @@ a:hover {
   .account-info button {
     font-size: 12px;
     background: white;
-    border-radius: 15px;
+    border-radius: 10px;
     transition: .4s; }
     .account-info button:hover {
       opacity: .6; }
