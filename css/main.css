@@ -261,9 +261,25 @@ header {
   pointer-events: none; }
 
 @media only screen and (max-width: 992px) {
+  .main-container {
+    margin-top: -90px;
+    flex-direction: column;
+    height: unset;
+    padding-top: 70px;
+    width: 90%;
+    padding: 40px; }
+    .main-container .title-section {
+      width: 100%;
+      padding-top: 35px; }
+    .main-container .image-section {
+      margin-top: 40px; }
+    .main-container .logo-background {
+      z-index: -1;
+      top: -30px; }
+
   #results {
     padding: 35px 10px 35px;
-    margin: 0 10px 20px; }
+    margin: 70px 10px 20px; }
 
   .product_fluid {
     flex-direction: column;
@@ -279,6 +295,9 @@ header {
 
   .title {
     font-size: 20px !important; }
+
+  header .logo {
+    margin-top: 20px; }
 
   header .logo img {
     padding: 10px;
@@ -305,7 +324,7 @@ header {
     margin: 16px 0px 5px; }
 
   footer {
-    padding: 25px 20px;
+    padding: 50px 20px;
     flex-direction: column;
     align-items: center;
     justify-content: center; }
@@ -613,7 +632,20 @@ a:hover {
   right: 40px;
   top: 35px;
   display: flex;
-  align-items: center; }
+  align-items: center;
+  z-index: 100; }
+  .account-info button {
+    font-size: 12px;
+    background: white;
+    border-radius: 15px;
+    transition: .4s; }
+    .account-info button:hover {
+      opacity: .6; }
+  .account-info .drop {
+    cursor: pointer; }
+    .account-info .drop img {
+      width: 25px;
+      margin-left: 5px; }
   .account-info img {
     padding-right: 10px; }
 
@@ -691,7 +723,7 @@ a:hover {
         border: 1px solid #519657; }
   @media only screen and (max-width: 992px) {
     .quiz-container {
-      width: 90%; }
+      width: 95%; }
       .quiz-container .pink-background {
         display: none; }
       .quiz-container .question-box {
@@ -702,7 +734,7 @@ a:hover {
 @media only screen and (max-width: 768px) {
   .account-info {
     right: calc(50% - 90px);
-    top: 100px; }
+    top: 95px; }
 
   .quiz-container {
     margin-top: 80px; }

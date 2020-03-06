@@ -4,6 +4,28 @@
     top: 35px;
     display: flex;
     align-items: center;
+    z-index: 100;
+
+    button {
+        font-size: 12px;
+        background: white;
+        border-radius: 15px;
+        transition: .4s;
+
+        &:hover {
+            opacity: .6;
+        }
+    }
+
+
+    .drop {
+        cursor: pointer;
+
+        img {
+            width: 25px;
+            margin-left: 5px;
+        }
+    }
 
     img {
         padding-right: 10px;
@@ -119,7 +141,7 @@
     }
 
     @media only screen and (max-width: 992px) {
-        width: 90%;
+        width: 95%;
 
         .pink-background {
             display: none;
@@ -142,7 +164,7 @@
 @media only screen and (max-width: 768px) {
     .account-info {
         right: calc(50% - 90px);
-        top: 100px;
+        top: 95px;
     }
 
     .quiz-container {
