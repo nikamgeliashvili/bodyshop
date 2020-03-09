@@ -38,7 +38,10 @@ header .logo {
       font-size: 14px;
       border: 1px solid #0C4437;
       padding: 15px 20px;
-      border-radius: 25px; }
+      border-radius: 25px;
+      transition: .3s; }
+      .main-container .title-section .fb-login a:hover {
+        opacity: .6; }
       .main-container .title-section .fb-login a span {
         margin: 0 7px; }
   .main-container .image-section {
@@ -56,8 +59,15 @@ footer {
   padding: 60px 50px;
   font-family: 'Conv_bpg_dejavu_sans';
   background-color: #EFABB2; }
+  footer a {
+    transition: .3s; }
+    footer a:hover {
+      opacity: .6; }
   footer .footer-left img {
-    padding: 0 15px 10px 0; }
+    padding: 0 15px 10px 0;
+    transition: .3s; }
+    footer .footer-left img:hover {
+      opacity: .6; }
   footer .footer-left span {
     font-size: 14px; }
   footer .terms {
