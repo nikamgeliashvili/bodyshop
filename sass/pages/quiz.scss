@@ -39,16 +39,7 @@
     border-radius: 15px;
     padding: 60px 0;
 
-    .pink-background {
-        width: 35%;
-        height: 60%;
-        background: #ffcdd2;
-        position: absolute;
-        top: 0;
-        left: 0;
-        clip-path: polygon(0 0, 0 100%, 100% 0);
-        z-index: -1;
-    }
+
 
     .question-box {
         margin: 0 auto;
@@ -69,7 +60,7 @@
         }
     }
 
-    .last-form {
+    .last-answer {
         border-bottom: unset !important;
     }
 
@@ -91,7 +82,7 @@
         }
     }
 
-    form {
+    .answer-section {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -162,6 +153,11 @@
 
 
 @media only screen and (max-width: 768px) {
+
+    .pink-background {
+        display: none;
+    }
+
     .account-info {
         right: calc(50% - 90px);
         top: 95px;
@@ -180,7 +176,7 @@
             }
 
 
-            form {
+            .answer-section {
                 .answer {
                     width: 100%;
 
